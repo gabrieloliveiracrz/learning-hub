@@ -3,10 +3,10 @@ import styles from './Comment.module.css'
 
 export function Comment() {
     return (
-        <div className={styles.commnent}>
+        <div className={styles.comment}>
             <img src="https://avatars.githubusercontent.com/u/93164702?v=4" />
 
-            <div className={styles.commnentBox}>
+            <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
@@ -20,7 +20,7 @@ export function Comment() {
                         </div>
 
                         <button title='Deletar comentário'>
-                            <Trash size={20} />
+                            <Trash size={24} />
                         </button>
                     </header>
                     <p>Muito bom, parabéns</p>
