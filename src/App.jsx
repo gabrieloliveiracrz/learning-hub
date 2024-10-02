@@ -10,9 +10,9 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/gabrieloliveiracrz.png',
-      name: 'Gabriel Ferreira',
-      role: "Web Developer"
+      avatarUrl: 'https://github.com/guedonotfound.png',
+      name: 'Gabriel Guedes',
+      role: "Rock"
     },
     content: [
       {type : 'paragraph', content: 'Fala galeraa 👋'},
@@ -33,7 +33,7 @@ const posts = [
       {type : 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
       {type : 'link', content: 'jane.design/doctorcare'},     
     ],
-    publishedAt: new Date('2024-09-28 19:45:00')
+    publishedAt: new Date('2024-10-01 19:45:00')
   }
 ]
 
